@@ -1,0 +1,45 @@
+ Guia Turístico de [Sua Cidade ou Qualquer Cidade do Brasil]
+🎯 Objetivo: Treinar títulos, parágrafos, listas, imagens, links, tabelas e formulários sem precisar de CSS ou JavaScript.
+
+Estrutura do site
+Cabeçalho
+
+<h1> com o nome da cidade
+
+Uma foto da cidade com <img>
+
+Um pequeno texto de introdução <p>
+
+Pontos Turísticos
+
+Lista (<ul> ou <ol>) com pelo menos 5 pontos turísticos
+
+Cada item com:
+
+Nome (<h3>)
+
+Foto (<img>)
+
+Descrição (<p>)
+
+Tabela de Restaurantes
+
+Usar <table> com colunas:
+
+Nome do restaurante
+
+Tipo de comida
+
+Faixa de preço
+
+Formulário de Contato
+
+Nome, e-mail e mensagem
+
+Botão de enviar
+
+Rodapé
+
+Links para redes sociais
+
+Texto de direitos autorais 
