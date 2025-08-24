@@ -1,5 +1,5 @@
 # 📚 Repositório de Estudos HTML & CSS
-Repositório dedicado ao aprendizado e prática das tecnologias fundamentais para desenvolvimento web front-end. Aqui você encontrará projetos cuidadosamente estrheturados para evoluir suas habilidades em:
+Repositório dedicado ao aprendizado e prática das tecnologias essenciais para o desenvolvimento web.
 
 # 🛠 Tecnologias Principais
 HTML5
