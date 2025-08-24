@@ -3,7 +3,6 @@ Repositório dedicado ao aprendizado e prática das tecnologias essenciais para 
 
 # 🛠 Tecnologias Principais
 HTML5
-
 CSS3
 
 # 🎯 Objetivos
