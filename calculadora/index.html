@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="numberform">
+        <div class="form-group">
+            <label for="number1">Numero 1</label>
+            <input type="number" step="any" id="number1">
+        </div>
+        
+        <div class="form-group">
+            <label for="number2">Numero 2</label>
+            <input type="number" step="any" id="number2">
+        </div>
+
+        <button type="submit">Calcular</button>
+
+    </form>
+
+    <div id="resultado" class="result">
+        <div class="result-title">Resultado:</div>
+        <div class="result-value" id="resultValue"></div>
+    </div>
+
+    <script>
+        document.getElementById('numberform').addEventListener('submit', function(e){
+            e.preventDefault();
+
+            const num1 = parseFloat(document.getElementById('number1').value)||0;
+            const num2 = parseFloat(document.getElementById('number2').value)||0;
+
+            const result = "Ja existe um usuario com esse numero";
+
+            const resultValue = document.getElementById('resultValue');
+            resultValue.textContent = result;
+        })
+    </script>
+</body>
+</html>

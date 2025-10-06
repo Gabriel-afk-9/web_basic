@@ -1,0 +1,219 @@
+:root {
+  --main-color: #2d323e;
+  --cian: #54c9a9;
+  --gray: #e8f0f2;
+  --bg: #ffffff;
+  --border: 0.1rem solid rgba(78, 78, 78, 0.432);
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    border-bottom: var(--border) ;
+    background-color: var(--bg);
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+    font-size: 2.2rem;
+}
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 45px;
+    height: 45px;
+}
+
+.btn {
+    background:var(--cian);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.btn:hover{
+    letter-spacing: 0.1rem;
+}
+
+.home-container {
+    background: url("/guia_turistico/images/24-03-2016-delta-parnaba-jpg.jfif");
+    background-position: center;
+    background-size: cover;
+}
+
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.content{
+    max-width: 60rem;
+}
+
+.content h3{
+    color: #ffffff;
+    font-size: 5rem;
+}
+
+.content p {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 30;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.title {
+    font-size: 3rem;
+    color: var(--main-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.title span{
+    color: var(--cian);
+    text-transform: uppercase;
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    background-color: var(--main-color);
+    gap: 1.55rem;
+}
+
+.about .row .content { 
+    padding: 2rem;
+}
+
+.about .row .content h3{ 
+    font-size: 3rem; 
+}
+
+.about .row .content p{ 
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box {
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+
+}
+
+.menu .box-container .box:hover {
+    transform: scale(1.1);
+
+}
+
+/* Para todos que estão dentro do box
+.menu .box-container .box:hover >* {
+} */
+
+.menu .box-container .box img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.menu .box-container .box h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+
+}
+
+.menu .box-container .box .price {
+    color: #000000;
+    font-size: 2rem;
+    padding: 0.5 rem 0;
+
+}
+
+.menu .box-container .box .price span{
+    color: #000000;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.review .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.review .box-container .box p{
+    font-size: 1.5rem;
+    color: #000000;
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.review .box-container .box .user{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+
+
